@@ -22,7 +22,7 @@ To attain the same objective, we will also remove punctuation from the text data
 The data was divided into training and testing data, where 80% of the data was allocated for training and 20% for testing. The remaining 20% represents the test data consisting of the last 200 rows of data for each class.
 
 ### Build a machine learning based classifier 
-We will try the following **SGDClassifier** , so we start to vectorize the input data using a CountVectorizer
+We will try the following **SGD classifier** , so we start to vectorize the input data using a CountVectorizer
 and then create an instance of the SGDClassifier with a maximum of 1000 iterations and a tolerance of 1e-3    
 after that we fitted the classifier to the vectorized training data and target variables
 
