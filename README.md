@@ -29,6 +29,29 @@ after that we fitted the classifier to the vectorized training data and target v
 ### Model Evaluation
 It is the process that uses some metrics which help us to analyze the performance of the model. As we all know that model development is a multi-step process and a check should be kept on how well the model generalizes future predictions.
 
-We show its performance on the test-set. Show precision, recall, f-score, accuracy for each class and for 
-the whole test data.
+We show its performance on the test-set. precision, recall, f-score, accuracy for each class and for 
+the whole test data and also we plotted the confusion matrix.
+
+### Some Results
+**Accuracy by class :**
+- art-et-culture: 0.885
+- economie: 0.83
+- faits-divers : 0.935 
+- marocains-du-monde: 0.83
+- medias: 0.865
+- orbites: 0.495
+- politique: 0.795
+- regions: 0.785 
+- societe: 0.595 
+- sport: 0.965 
+- tamazight: 0.96
+
+**Precision for whole dataset**: 0.809
+
+**Recallfor whole dataset**: 0.812
+
+**F1-Score for whole dataset**: 0.810
+
+**Accuracy for whole dataset**: 0.812
+
 
